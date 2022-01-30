@@ -3,7 +3,8 @@
 
 //wctc color
 $primary: #003e7a;
-$light-primary:lighten(#003e7a,94%);
+$light-primary:lighten(#003e7a,30%);
+
 
 //makes hover not be white bg and gray text
 $dropdown-link-hover-bg: darken($primary,10%);
@@ -11,8 +12,9 @@ $dropdown-link-hover-color: white;
 
 $breadcrumb-bg:white;
 
+
 .bg-light-primary{
-  background-color: $light-primary;
+  background-color:$light-primary !important;
 }
 
 .rounded-more{
@@ -51,7 +53,6 @@ $nav-tabs-link-hover-border-color:white;
 
 // import bootstrap library
 @import "bootstrap/bootstrap";
-
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
